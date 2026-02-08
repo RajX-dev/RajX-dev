@@ -1,6 +1,6 @@
-# Raj 👨‍💻
+# Raj Shekhar
 
-**Full Stack Developer** | Software Engineering Student @ Delhi Technological University | GitHub: [RajX-dev](https://github.com/RajX-dev)
+**Developer** | Electrical Engineering Student @ Delhi Technological University | GitHub: [RajX-dev](https://github.com/RajX-dev)
 
 [![LinkedIn Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=YOUR_LINKEDIN_URL)](https://www.linkedin.com/in/raj-shekhar349/)
 [![Gmail Badge](https://img.shields.io/badge/-Email-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:your-email@gmail.com)](mailto:sraj4090ti@gmail.com)
