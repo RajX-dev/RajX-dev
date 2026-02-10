@@ -2,8 +2,8 @@
 
 **Developer** | Electrical Engineering Student @ Delhi Technological University | GitHub: [RajX-dev](https://github.com/RajX-dev)
 
-[![LinkedIn Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=YOUR_LINKEDIN_URL)](https://www.linkedin.com/in/raj-shekhar349/)
-[![Gmail Badge](https://img.shields.io/badge/-Email-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:your-email@gmail.com)](mailto:sraj4090ti@gmail.com)
+[![LinkedIn Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/raj-shekhar349/)](https://www.linkedin.com/in/raj-shekhar349/)
+[![Gmail Badge](https://img.shields.io/badge/-Email-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:sraj4090ti@gmail.com)](mailto:sraj4090ti@gmail.com)
 [![GitHub Badge](https://img.shields.io/badge/-RajX--dev-181717?style=flat-square&logo=github&logoColor=white&link=https://github.com/RajX-dev)](https://github.com/RajX-dev)
 
 ---
@@ -11,7 +11,7 @@
 ### 👋 About Me
 
 - 🎓 Student at **Delhi Technological University (DTU)**
-- 🚀 Developer of **CodeSeer**, an AI-powered code intelligence engine
+- 🚀 Founder of **N3MO**, an advanced code intelligence engine (formerly CodeSeer)
 - 🔧 Building scalable systems with **Node.js, Knowledge Graphs, and Python**
 - ⚡ Interested in **Systems Design**, **MATLAB/Simulink**, and **Open Source**
 - 🎨 Creative hobbyist in **Digital Painting** and **Graphic Novels**
@@ -21,14 +21,14 @@
 
 ### 🔨 Proof of Work
 
-**[CodeSeer](https://github.com/RajX-dev/CodeSeer)** – *Founder & Lead Developer*
-- Architected a code intelligence engine that transforms entire repositories into queryable **Knowledge Graphs**.
-- Implemented sophisticated code analysis pipelines to improve repository understanding and searchability.
-- Integrated LLM-based reasoning for deep codebase insights.
+**[N3MO](https://github.com/RajX-dev/N3MO)** – *Founder & Lead Developer*
+- Architecting a next-gen code intelligence engine that maps entire repositories into queryable **Knowledge Graphs**.
+- Implementing sophisticated static analysis and indexing pipelines to enable deep codebase reasoning.
+- Leveraging LLMs to provide context-aware insights for complex system architectures.
 
 **[scancode-toolkit](https://github.com/aboutcode-org/scancode-toolkit)** – *Open Source Contributor*
-- Actively contributing to the development and testing of industry-standard license and dependency scanning tools.
-- Debugging complex Python environments and improving test coverage using `pytest`.
+- Contributing to industry-standard license and dependency scanning tools.
+- Solving complex issues regarding URL detection, package provenance, and automated testing using `pytest`.
 
 ---
 
@@ -41,12 +41,6 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![MATLAB](https://img.shields.io/badge/MATLAB-ED8B00?style=for-the-badge&logo=mathworks&logoColor=white)
-
-**Frontend & Design**
-
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 
 **Backend & AI**
 
@@ -78,8 +72,8 @@
 ### 🤝 Let's Connect
 
 <p align="center">
-  <a href="YOUR_LINKEDIN_URL"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="mailto:your-email@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  <a href="https://www.linkedin.com/in/raj-shekhar349/"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="mailto:sraj4090ti@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 </p>
 
 ---
@@ -89,5 +83,5 @@
 </p>
 
 <p align="center">
-  <i>💡 Interested in AI, Systems Engineering, and the future of Knowledge Graphs.</i>
+  <i>💡 Navigating complex codebases with N3MO — Knowledge Graphs + AI.</i>
 </p>
