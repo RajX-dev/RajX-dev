@@ -32,14 +32,6 @@
 
 ---
 
-### 🐍 Contribution Snake
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/mr-raj12/mr-raj12/output/github-snake-dark.svg" alt="Snake animation" />
-</p>
-
----
-
 ### 🛠️ Tech Stack
 
 **Languages**
