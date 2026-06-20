@@ -1,104 +1,100 @@
 # Raj Shekhar
 
-**Electrical Engineering @ DTU** | Founder, [N3MO](https://github.com/RajX-dev/N3MO) | Intern @ ISRO LPSC
-
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/raj-shekhar349/)](https://www.linkedin.com/in/raj-shekhar349/)
-[![Gmail](https://img.shields.io/badge/-Email-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:sraj4090ti@gmail.com)](mailto:sraj4090ti@gmail.com)
-[![GitHub](https://img.shields.io/badge/-RajX--dev-181717?style=flat-square&logo=github&logoColor=white&link=https://github.com/RajX-dev)](https://github.com/RajX-dev)
-
----
-
-### About Me
-
-- 🎓 Final-year EE student at **Delhi Technological University (DTU)**
-- 🚀 Solo founder of **[N3MO](https://github.com/RajX-dev/N3MO)** — code intelligence infrastructure for AI coding tools
-- 🔬 Interning at **ISRO LPSC** (PPEG division, Thiruvananthapuram)
-- 🛠 Building with **Python, PostgreSQL, FastAPI, Tree-sitter, and MCP**
-- 🎨 Hobbyist in **digital painting** and **graphic novels**
-- 📍 Based in **Delhi, India**
+<p align="left">
+  <a href="https://github.com/RajX-dev/N3MO"><img src="https://img.shields.io/badge/Founder-N3MO-000000?style=flat-square&logo=github&logoColor=white" alt="N3MO" /></a>
+  <a href="https://www.linkedin.com/in/raj-shekhar349/"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:sraj4090ti@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
+</p>
 
 ---
 
-### 🔨 Proof of Work
+### About
 
-**[N3MO](https://github.com/RajX-dev/N3MO)** — *Founder & Lead Developer*
-- Built a production-ready code intelligence engine that indexes repositories into a **PostgreSQL symbol/call graph** using Tree-sitter AST parsing.
-- Benchmarked on Django: **3,021 files · 43k symbols · 181k call edges** indexed with a **9× speedup** over naive approaches via SQL optimization and incremental SHA-256 hashing.
-- Ships as an **MCP server** (Cursor, Claude Desktop, Windsurf), a **PyPI package**, a **GitHub App** with webhook-driven re-indexing, and a **GitHub Marketplace** listing.
-- Open-core: MIT/AGPL licensed, local-first PostgreSQL backend, self-hostable via Docker.
+Founder of N3MO. Focused on high-performance backend infrastructure, AST parsing, and tooling for AI-native development.
 
-**[scancode-toolkit](https://github.com/aboutcode-org/scancode-toolkit)** — *Open Source Contributor*
+- Founder and Lead Developer of **[N3MO](https://github.com/RajX-dev/N3MO)**.
+- Final-year Electrical Engineering student at **Delhi Technological University (DTU)**.
+- Interning at **ISRO LPSC** (PPEG division, Thiruvananthapuram).
+- Interests include code intelligence, compilers, and distributed systems.
+- Based in Delhi, India.
+
+---
+
+### Projects
+
+**[N3MO](https://github.com/RajX-dev/N3MO)**  
+*Code intelligence infrastructure for AI coding tools*
+
+Open-core code intelligence engine that uses Tree-sitter AST parsing to index large repositories into a PostgreSQL symbol and call graph.
+- Benchmarked on Django (3,021 files · 43k symbols · 181k call edges) with a 9× speedup over naive approaches via SQL optimization and incremental SHA-256 hashing.
+- Distributed as an MCP server (Cursor, Claude Desktop, Windsurf), a PyPI package, and a GitHub App featuring asynchronous webhook-driven PR analysis.
+
+**[scancode-toolkit](https://github.com/aboutcode-org/scancode-toolkit)**  
+*Open Source Contributor*
+
 - Contributed to industry-standard license and dependency scanning tooling.
-- Fixed issues in URL detection, package provenance, and automated testing (`pytest`).
+- Resolved critical issues in URL detection, package provenance, and test automation (`pytest`).
 
 ---
 
-### 🛠️ Tech Stack
+### Stack
 
-**Languages**
+<details open>
+<summary><b>Languages</b></summary>
+<br/>
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" />
+  <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black" />
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
+</p>
+</details>
 
-![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+<details open>
+<summary><b>Infrastructure & Backend</b></summary>
+<br/>
+<p>
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white" />
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" />
+</p>
+</details>
 
-**Frontend**
-
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-
-**Backend**
-
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
-
-**Databases**
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-
-**DevOps & Cloud**
-
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-![GCP](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+<details>
+<summary><b>Frontend</b></summary>
+<br/>
+<p>
+  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" />
+</p>
+</details>
 
 ---
 
-### 📊 GitHub Stats
+### Analytics
 
-<p align="center">
+<div align="left">
   <a href="https://github.com/RajX-dev">
-    <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=RajX-dev&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true&border_color=404040"/>
-    <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=RajX-dev&layout=compact&langs_count=8&theme=github_dark&border_color=404040"/>
+    <img height="165em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=RajX-dev&show_icons=true&theme=radical&include_all_commits=true&count_private=true&bg_color=0D1117&border_color=30363D&title_color=58A6FF&icon_color=58A6FF" alt="Raj's GitHub Stats" />
+    <img height="165em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=RajX-dev&layout=compact&langs_count=6&theme=radical&bg_color=0D1117&border_color=30363D&title_color=58A6FF" alt="Raj's Top Languages" />
   </a>
+</div>
+
+<p align="left">
+  <br/>
+  <img src="https://komarev.com/ghpvc/?username=RajX-dev&color=58A6FF&style=flat-square&label=Profile+Views" alt="Profile Views" />
 </p>
 
----
+<br/>
 
-### 🤝 Let's Connect
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/raj-shekhar349/"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="mailto:sraj4090ti@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-</p>
-
----
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=RajX-dev&color=blueviolet&style=flat-square&label=Profile+Views" alt="Profile Views" />
-</p>
-
-<p align="center">
-  <i>💡 Code intelligence infrastructure for AI-native development — <a href="https://github.com/RajX-dev/N3MO">N3MO</a></i>
-</p>
+<div align="left">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=24&pause=1000&color=58A6FF&vCenter=true&width=600&lines=Founder+of+N3MO;Intern+%40+ISRO+LPSC;Building+AI-Native+Infrastructure" alt="Typing SVG" />
+</div>
