@@ -149,10 +149,6 @@ I enjoy diving deep into ASTs, PostgreSQL optimizations, and building tools that
       <b>🎓 B.Tech | Delhi Technological University</b><br/>
       <sub><i>Update with your actual timeline</i></sub>
     </td>
-    <td width="30%">
-      <b>🏆 Your Certification</b><br/>
-      <sub><i>Update with your certifications</i></sub>
-    </td>
   </tr>
 </table>
 
