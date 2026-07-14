@@ -130,7 +130,6 @@ I enjoy diving deep into ASTs, PostgreSQL optimizations, and building tools that
 
 <p align="center">
   <img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=RajX-dev&amp;theme=tokyonight&amp;hide_border=true&amp;background=0D1117&amp;ring=2E7DFF&amp;fire=00C9A7&amp;currStreakLabel=2E7DFF" />
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RajX-dev&amp;theme=tokyonight&amp;hide_border=true&amp;bg_color=0D1117&amp;layout=compact" />
 </p>
 
 <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=RajX-dev&amp;bg_color=0D1117&amp;color=2E7DFF&amp;line=2E7DFF&amp;point=FFFFFF&amp;hide_border=true" />
