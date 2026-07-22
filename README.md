@@ -1,36 +1,13 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:2E7DFF,100:00C9A7&height=200&section=header&text=Raj%20Shekhar&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38" />
 
-<table>
-  <tr>
-    <td width="35%" valign="top">
-      <img src="./ascii.svg" width="100%" alt="Raj Shekhar ASCII Portrait" />
-    </td>
-    <td width="65%" valign="top" style="padding-left: 20px;">
-      <p align="center">
-        <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=2E7DFF&center=true&vCenter=true&width=450&lines=Software+Engineer+%26+Founder;Building+Structural+Code+Intelligence;Backend+%7C+Python+%7C+PostgreSQL+%7C+ASTs;Open+Source+Contributor" alt="Typing SVG" />
-      </p>
-
-      <p align="center">
-        <a href="https://www.linkedin.com/in/raj-shekhar349/"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-        <a href="mailto:sraj4090ti@gmail.com"><img src="https://img.shields.io/badge/EMAIL-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-        <a href="https://github.com/RajX-dev"><img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
-      </p>
-
-      <p align="center">
-        <img src="https://img.shields.io/badge/FINAL_YEAR_STUDENT-B3D4F5?style=for-the-badge&logoColor=333"/>
-        <img src="https://img.shields.io/badge/CODE_INTELLIGENCE-C9B8F5?style=for-the-badge&logoColor=333"/>
-        <img src="https://img.shields.io/badge/BACKEND_SYSTEMS-FFCDD2?style=for-the-badge&logoColor=333"/>
-        <img src="https://img.shields.io/badge/OPEN_SOURCE-B2DFBC?style=for-the-badge&logoColor=333"/>
-      </p>
-
-      <p align="center">📍 Delhi, India | 🎓 DTU Electrical Engineering (2027)</p>
-
-      <p align="center">
-        <img src="https://komarev.com/ghpvc/?username=RajX-dev&style=for-the-badge&color=2E7DFF&label=PROFILE+VIEWS"/>
-      </p>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <a href="https://github.com/RajX-dev/RajX-dev">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./dark_mode.svg">
+      <img alt="Raj Shekhar's GitHub Profile README" src="./light_mode.svg">
+    </picture>
+  </a>
+</p>
 
 ---
 
