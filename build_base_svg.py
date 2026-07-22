@@ -80,8 +80,9 @@ text, tspan {{white-space: pre;}}
 <tspan x="360" y="120" class="key">Host</tspan><tspan x="480" y="120" class="value">Delhi Technological University</tspan>
 <tspan x="360" y="140" class="key">Kernel</tspan><tspan x="480" y="140" class="value">Structural Code Intelligence</tspan>
 <tspan x="360" y="160" class="key">IDE</tspan><tspan x="480" y="160" class="value">Cursor, VSCode</tspan>
-<tspan x="360" y="200" class="key">Languages</tspan><tspan x="480" y="200" class="value">Python, C++, JavaScript</tspan>
-<tspan x="360" y="220" class="key">Web Dev</tspan><tspan x="480" y="220" class="value">SQL, HTML, CSS</tspan>
+<tspan x="360" y="190" class="key">Languages</tspan><tspan x="480" y="190" class="value">Python, C++, C, TypeScript, JS, SQL, Bash</tspan>
+<tspan x="360" y="210" class="key">Backend</tspan><tspan x="480" y="210" class="value">Docker, FastAPI, PostgreSQL, REST APIs</tspan>
+<tspan x="360" y="230" class="key">Systems</tspan><tspan x="480" y="230" class="value">Linux, HPC, Concurrency, Distributed Sys</tspan>
 <tspan x="360" y="260" class="key">Current Work</tspan><tspan x="480" y="260" class="value">Founder @ N3MO (n3mo.shop)</tspan>
 <tspan x="360" y="280" class="key">Focus</tspan><tspan x="480" y="280" class="value">Structural Code Intelligence</tspan>
 <tspan x="360" y="300" class="key">Tech Stack</tspan><tspan x="480" y="300" class="value">Python, PostgreSQL, Tree-sitter</tspan>
