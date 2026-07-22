@@ -6,14 +6,14 @@ from PIL import Image
 from rembg import remove
 
 RAMP = " .`:-=+*cs#%@"
-COLS = 65
+COLS = 50
 CLAHE_CLIP = 2.2
 GAMMA = 1.35
 CROP_BOTTOM = 0.0
 
-CHAR_W = 5.0
-FONT_SIZE = 8.3
-LINE_H = 10.4
+CHAR_W = 6.6
+FONT_SIZE = 11.0
+LINE_H = 13.7
 ROW_DELAY = 0.09
 PAD = 15
 
@@ -74,30 +74,25 @@ text, tspan {{white-space: pre;}}
 {ascii_nodes}
 
 <text x="355" y="30" fill="{val_color}" class="stats">
-<tspan x="355" y="30">raj@laptop ---------------------------------------------------</tspan>
-<tspan x="355" y="50" class="cc">. </tspan><tspan class="key">OS:</tspan><tspan id="os_dots"> ...................................... </tspan><tspan class="value">Windows 11, Linux</tspan>
-<tspan x="355" y="70" class="cc">. </tspan><tspan class="key">Uptime:</tspan><tspan id="age_dots"> ......................... </tspan><tspan class="value" id="age_data">21 years, 3 months, 4 days</tspan>
-<tspan x="355" y="90" class="cc">. </tspan><tspan class="key">Host:</tspan><tspan id="host_dots"> ....................... </tspan><tspan class="value">Delhi Technological University</tspan>
-<tspan x="355" y="110" class="cc">. </tspan><tspan class="key">Kernel:</tspan><tspan id="kernel_dots"> ....................... </tspan><tspan class="value">Structural Code Intelligence</tspan>
-<tspan x="355" y="130" class="cc">. </tspan><tspan class="key">IDE:</tspan><tspan id="ide_dots"> ........................................ </tspan><tspan class="value">Cursor, VSCode</tspan>
-<tspan x="355" y="150"> </tspan>
-<tspan x="355" y="170" class="cc">. </tspan><tspan class="key">Languages.Programming:</tspan><tspan id="lang1_dots"> ............. </tspan><tspan class="value">Python, C++, JavaScript</tspan>
-<tspan x="355" y="190" class="cc">. </tspan><tspan class="key">Languages.Computer:</tspan><tspan id="lang2_dots"> ......................... </tspan><tspan class="value">SQL, HTML, CSS</tspan>
-<tspan x="355" y="210"> </tspan>
-<tspan x="355" y="230" class="cc">. </tspan><tspan class="key">Hobbies:</tspan><tspan id="hobby_dots"> ...................... </tspan><tspan class="value">Static Analysis, Open Source</tspan>
-<tspan x="355" y="250">- Current Work -----------------------------------------------</tspan>
-<tspan x="355" y="270" class="cc">. </tspan><tspan class="key">Founder:</tspan><tspan id="founder_dots"> .................................. </tspan><tspan class="value">N3MO (n3mo.shop)</tspan>
-<tspan x="355" y="290" class="cc">. </tspan><tspan class="key">Focus:</tspan><tspan id="focus_dots"> ........................ </tspan><tspan class="value">Structural Code Intelligence</tspan>
-<tspan x="355" y="310" class="cc">. </tspan><tspan class="key">Tech Stack:</tspan><tspan id="tech_dots"> ................ </tspan><tspan class="value">Python, PostgreSQL, Tree-sitter</tspan>
-<tspan x="355" y="330"> </tspan>
-<tspan x="355" y="350">- Contact ----------------------------------------------------</tspan>
-<tspan x="355" y="370" class="cc">. </tspan><tspan class="key">Email:</tspan><tspan id="email_dots"> ................................ </tspan><tspan class="value">sraj4090ti@gmail.com</tspan>
-<tspan x="355" y="390" class="cc">. </tspan><tspan class="key">LinkedIn:</tspan><tspan id="linkedin_dots"> ................................... </tspan><tspan class="value">raj-shekhar349</tspan>
-<tspan x="355" y="410"> </tspan>
-<tspan x="355" y="430">- GitHub Stats -----------------------------------------------</tspan>
-<tspan x="355" y="450" class="cc">. </tspan><tspan class="key">Repos: </tspan><tspan id="repo_dots">..... </tspan><tspan class="value" id="repo_data">42</tspan><tspan class="value"> {{Contributed: </tspan><tspan class="value" id="contrib_data">10</tspan><tspan class="value">}} | </tspan><tspan class="key">Stars: </tspan><tspan id="star_dots">.............. </tspan><tspan class="value" id="star_data">150</tspan>
-<tspan x="355" y="470" class="cc">. </tspan><tspan class="key">Commits: </tspan><tspan id="commit_dots">...................... </tspan><tspan class="value" id="commit_data">1,234</tspan><tspan class="value"> | </tspan><tspan class="key">Followers: </tspan><tspan id="follower_dots">........ </tspan><tspan class="value" id="follower_data">50</tspan>
-<tspan x="355" y="490" class="cc">. </tspan><tspan class="key">Lines of Code on GitHub:</tspan><tspan class="cc">. </tspan><tspan class="value" id="loc_data">50,000</tspan><tspan class="value"> ( </tspan><tspan class="addColor" id="loc_add">75,000++</tspan><tspan class="value">, </tspan><tspan class="delColor" id="loc_del">25,000--</tspan><tspan class="value"> )</tspan>
+<tspan x="360" y="50" class="value" font-weight="bold" font-size="16">raj@laptop</tspan>
+<tspan x="360" y="80" class="key">OS</tspan><tspan x="480" y="80" class="value">Windows 11, Linux</tspan>
+<tspan x="360" y="100" class="key">Uptime</tspan><tspan x="480" y="100" class="value" id="age_data">21 years, 3 months, 4 days</tspan>
+<tspan x="360" y="120" class="key">Host</tspan><tspan x="480" y="120" class="value">Delhi Technological University</tspan>
+<tspan x="360" y="140" class="key">Kernel</tspan><tspan x="480" y="140" class="value">Structural Code Intelligence</tspan>
+<tspan x="360" y="160" class="key">IDE</tspan><tspan x="480" y="160" class="value">Cursor, VSCode</tspan>
+<tspan x="360" y="200" class="key">Languages</tspan><tspan x="480" y="200" class="value">Python, C++, JavaScript</tspan>
+<tspan x="360" y="220" class="key">Web Dev</tspan><tspan x="480" y="220" class="value">SQL, HTML, CSS</tspan>
+<tspan x="360" y="260" class="key">Current Work</tspan><tspan x="480" y="260" class="value">Founder @ N3MO (n3mo.shop)</tspan>
+<tspan x="360" y="280" class="key">Focus</tspan><tspan x="480" y="280" class="value">Structural Code Intelligence</tspan>
+<tspan x="360" y="300" class="key">Tech Stack</tspan><tspan x="480" y="300" class="value">Python, PostgreSQL, Tree-sitter</tspan>
+<tspan x="360" y="340" class="key">Email</tspan><tspan x="480" y="340" class="value">sraj4090ti@gmail.com</tspan>
+<tspan x="360" y="360" class="key">LinkedIn</tspan><tspan x="480" y="360" class="value">raj-shekhar349</tspan>
+<tspan x="360" y="400" class="value" font-weight="bold">GitHub Stats</tspan>
+<tspan x="360" y="420" class="key">Repos</tspan><tspan x="480" y="420" class="value" id="repo_data">42</tspan>
+<tspan x="360" y="440" class="key">Stars</tspan><tspan x="480" y="440" class="value" id="star_data">150</tspan>
+<tspan x="360" y="460" class="key">Commits</tspan><tspan x="480" y="460" class="value" id="commit_data">1,234</tspan>
+<tspan x="360" y="480" class="key">Followers</tspan><tspan x="480" y="480" class="value" id="follower_data">50</tspan>
+<tspan x="360" y="500" class="key">Total LOC</tspan><tspan x="480" y="500" class="value" id="loc_data">50,000</tspan><tspan class="value"> (</tspan><tspan class="addColor" id="loc_add">75,000++</tspan><tspan class="value">, </tspan><tspan class="delColor" id="loc_del">25,000--</tspan><tspan class="value">)</tspan>
 </text>
 </svg>
 """

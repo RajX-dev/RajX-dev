@@ -234,15 +234,15 @@ def stars_counter(data):
 def svg_overwrite(filename, age_data, commit_data, star_data, repo_data, contrib_data, follower_data, loc_data):
     tree = etree.parse(filename)
     root = tree.getroot()
-    justify_format(root, 'commit_data', commit_data, 24)
-    justify_format(root, 'star_data', star_data, 16)
-    justify_format(root, 'repo_data', repo_data, 6)
-    justify_format(root, 'contrib_data', contrib_data)
-    justify_format(root, 'follower_data', follower_data, 9)
+    justify_format(root, 'commit_data', commit_data, 0)
+    justify_format(root, 'star_data', star_data, 0)
+    justify_format(root, 'repo_data', repo_data, 0)
+    justify_format(root, 'contrib_data', contrib_data, 0)
+    justify_format(root, 'follower_data', follower_data, 0)
     justify_format(root, 'loc_data', loc_data[2], 0)
-    justify_format(root, 'loc_add', loc_data[0])
+    justify_format(root, 'loc_add', loc_data[0], 0)
     justify_format(root, 'loc_del', loc_data[1], 0)
-    justify_format(root, 'age_data', age_data, 50)
+    justify_format(root, 'age_data', age_data, 0)
     tree.write(filename, encoding='utf-8', xml_declaration=True)
 
 def justify_format(root, element_id, new_text, length=0):
