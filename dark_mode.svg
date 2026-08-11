@@ -23,7 +23,7 @@ text, tspan {white-space: pre;}
 <text x="355" y="30" fill="#a5d6ff" class="stats">
 <tspan x="360" y="50" class="value" font-weight="bold" font-size="16">raj@laptop</tspan>
 <tspan x="360" y="80" class="key">OS</tspan><tspan x="480" y="80" class="value">Windows 11, Linux</tspan>
-<tspan x="360" y="100" class="key">Uptime</tspan><tspan x="480" y="100" class="value" id="age_data">1 year, 2 months, 6 days</tspan>
+<tspan x="360" y="100" class="key">Uptime</tspan><tspan x="480" y="100" class="value" id="age_data">1 year, 2 months, 7 days</tspan>
 <tspan x="360" y="120" class="key">Host</tspan><tspan x="480" y="120" class="value">Delhi Technological University</tspan>
 <tspan x="360" y="140" class="key">Kernel</tspan><tspan x="480" y="140" class="value">Structural Code Intelligence</tspan>
 <tspan x="360" y="160" class="key">IDE</tspan><tspan x="480" y="160" class="value">Cursor, VSCode</tspan>
