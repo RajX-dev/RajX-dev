@@ -69,10 +69,19 @@ def graph_repos_stars(count_type, owner_affiliation, cursor=None, add_loc=0, del
     variables = {'owner_affiliation': owner_affiliation, 'login': USER_NAME, 'cursor': cursor}
     request = simple_request(graph_repos_stars.__name__, query, variables)
     if request.status_code == 200:
+        data = request.json()
+        user = data.get('data', {}).get('user')
+        if user is None:
+            errors = data.get('errors', [])
+            raise RuntimeError(
+                f"GitHub API returned null for user '{USER_NAME}'. "
+                f"Check that USER_NAME is correct and the token has the required scopes. "
+                f"API errors: {errors}"
+            )
         if count_type == 'repos':
-            return request.json()['data']['user']['repositories']['totalCount']
+            return user['repositories']['totalCount']
         elif count_type == 'stars':
-            return stars_counter(request.json()['data']['user']['repositories']['edges'])
+            return stars_counter(user['repositories']['edges'])
 
 def recursive_loc(owner, repo_name, data, cache_comment, addition_total=0, deletion_total=0, my_commits=0, cursor=None, retries=3):
     query_count('recursive_loc')
@@ -227,6 +236,8 @@ def force_close_file(data, cache_comment):
         f.writelines(data)
 
 def stars_counter(data):
+    if not data:
+        return 0
     total_stars = 0
     for node in data: total_stars += node['node']['stargazers']['totalCount']
     return total_stars
