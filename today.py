@@ -170,13 +170,13 @@ def graph_repos_stars(count_type, owner_affiliation, cursor=None, add_loc=0, del
         }
         request = simple_request(graph_repos_stars.__name__, query, variables)
         user = _extract_user(request.json(), graph_repos_stars.__name__)
-        repos = user['repositories']
+        repos = user.get('repositories') or {}
 
         if count_type == 'repos':
-            return repos['totalCount']
+            return repos.get('totalCount') or 0
 
         if count_type == 'stars':
-            total_stars += stars_counter(repos['edges'])
+            total_stars += stars_counter(repos.get('edges'))
             page_info = repos.get('pageInfo') or {}
             if not page_info.get('hasNextPage'):
                 return total_stars
@@ -260,8 +260,8 @@ def recursive_loc(
                 user_id = (author.get('user') or {}).get('id')
                 if user_id == author_id:
                     my_commits += 1
-                    addition_total += node.get('additions', 0)
-                    deletion_total += node.get('deletions', 0)
+                    addition_total += node.get('additions') or 0
+                    deletion_total += node.get('deletions') or 0
 
             page_info = history.get('pageInfo') or {}
             if not history.get('edges') or not page_info.get('hasNextPage'):
@@ -333,8 +333,12 @@ def loc_query(owner_affiliation, comment_size=0, force_cache=False, cursor=None,
         }
         request = simple_request(loc_query.__name__, query, variables)
         user = _extract_user(request.json(), loc_query.__name__)
-        repos = user['repositories']
-        all_edges.extend(repos.get('edges') or [])
+        repos = user.get('repositories') or {}
+        valid_edges = [
+            edge for edge in (repos.get('edges') or [])
+            if edge and (edge.get('node') or {}).get('nameWithOwner')
+        ]
+        all_edges.extend(valid_edges)
 
         page_info = repos.get('pageInfo') or {}
         if not page_info.get('hasNextPage'):
@@ -441,8 +445,12 @@ def stars_counter(data):
     if not data:
         return 0
     total_stars = 0
-    for node in data:
-        total_stars += node['node']['stargazers']['totalCount']
+    for edge in data:
+        node = (edge or {}).get('node')
+        if not node:
+            continue
+        stargazers = node.get('stargazers') or {}
+        total_stars += stargazers.get('totalCount') or 0
     return total_stars
 
 
