@@ -4,19 +4,26 @@ on:
   schedule:
     - cron: "0 0 * * *" # Runs daily at midnight UTC
   workflow_dispatch: # Allows manual triggering
+  push:
+    branches:
+      - main
+    paths:
+      - "today.py"
+      - ".github/workflows/update.yml"
 
 jobs:
   build:
+    if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
     permissions:
       contents: write
 
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.10'
 

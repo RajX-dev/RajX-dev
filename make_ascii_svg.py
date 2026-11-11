@@ -91,6 +91,6 @@ if __name__ == "__main__":
     src = sys.argv[1]
     dst = sys.argv[2] if len(sys.argv) > 2 else "ascii.svg"
     lines = to_lines(prep(src))
-    print("\\n".join(lines))
+    print("\n".join(lines))
     build_svg(lines, dst)
-    print(f"\\nwrote {dst}  ({len(lines)} rows)")
+    print(f"\nwrote {dst}  ({len(lines)} rows)")

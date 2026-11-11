@@ -52,7 +52,7 @@ def to_lines(img, cols=COLS, gamma=GAMMA):
 
 
 SVG_TEMPLATE = """<?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="985px" height="530px" font-size="16px">
+<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="985px" height="530px" viewBox="0 0 985 530" font-size="16px">
 <style>
 @font-face {{
 src: local('Consolas'), local('Consolas Bold');
@@ -137,7 +137,7 @@ def generate_svgs():
             f'<set attributeName="opacity" to="0" begin="{end}"/></rect>'
         )
         
-    ascii_str = '\\n'.join(ascii_nodes)
+    ascii_str = '\n'.join(ascii_nodes)
 
     dark_content = SVG_TEMPLATE.format(
         key_color="#ffa657",
