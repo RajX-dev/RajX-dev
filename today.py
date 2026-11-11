@@ -139,15 +139,13 @@ def graph_repos_stars(count_type, owner_affiliation, cursor=None, add_loc=0, del
     query = '''
     query ($owner_affiliation: [RepositoryAffiliation], $login: String!, $cursor: String) {
         user(login: $login) {
-            repositories(first: 100, after: $cursor, ownerAffiliations: $owner_affiliation) {
+            repositories(first: 60, after: $cursor, ownerAffiliations: $owner_affiliation) {
                 totalCount
                 edges {
                     node {
                         ... on Repository {
                             nameWithOwner
-                            stargazers {
-                                totalCount
-                            }
+                            stargazerCount
                         }
                     }
                 }
@@ -449,8 +447,11 @@ def stars_counter(data):
         node = (edge or {}).get('node')
         if not node:
             continue
-        stargazers = node.get('stargazers') or {}
-        total_stars += stargazers.get('totalCount') or 0
+        if 'stargazerCount' in node and node['stargazerCount'] is not None:
+            total_stars += node['stargazerCount']
+        else:
+            stargazers = node.get('stargazers') or {}
+            total_stars += stargazers.get('totalCount') or 0
     return total_stars
 
 
